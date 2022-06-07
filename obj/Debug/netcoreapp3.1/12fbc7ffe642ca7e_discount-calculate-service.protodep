@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/Discount-calculate-serviceGrpc.cs \
+obj\Debug\netcoreapp3.1/DiscountCalculateService.cs: Protos/discount-calculate-service.proto

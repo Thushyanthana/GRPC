@@ -1,0 +1,16 @@
+syntax = "proto3";  
+  
+ option csharp_namespace = "Server";  
+ package CalculateDiscount;  
+  
+ service CalculateDiscountAmount {  
+   rpc AmountCalculate (CalculateRequest) returns (CalculateReply);  
+ }  
+  
+ message CalculateRequest {  
+   string customertype = 1;  
+ }  
+  
+ message CalculateReply {  
+   double customerdiscount = 1;  
+ }  
